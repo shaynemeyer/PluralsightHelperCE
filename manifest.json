@@ -21,11 +21,13 @@
         "http://pluralsight.com/training/Courses/*",
         "http://pluralsight.com/training/Authors/Details/*"
       ],
-      "js": ["pluralsight_cs.js","jquery-1.10.2.js"]
+      "js": ["pluralsight_cs.js","jquery-3.1.1.js","jquery.dataTables.js"],
+      "css":["pluralsight_cs.css"]
     }
   ],
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "http://pluralsight.com/"
   ]
 }
